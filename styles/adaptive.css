@@ -1,0 +1,97 @@
+
+  @media all and (max-width: 375px) {
+  .nav_list {
+    display: none;
+    flex-direction: column;
+    width: fit-content;
+  }
+
+  .hero {
+    height: 820px;
+  }
+  .hero_bg {
+    height: 530px;
+    object-fit: cover;
+  }
+  .hero_start {
+    flex-direction: column-reverse;
+    height: 480px;
+    justify-content: end;
+  }
+  .about {
+    height: fit-content;
+    padding: 20px 0px;
+    flex-direction: column;
+  }
+  .about_left {
+    width: 90%;
+  }
+  .about_right {
+    width: 90%;
+  }
+  .hero_down {
+    bottom: 306px;
+  }
+  .hero_end {
+    margin: auto;
+    margin-top: 70px;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 300px;
+  }
+  .hero_left {
+    width: 65%;
+  }
+  .hero_left button {
+    width: 100%;
+  }
+  .hero_right {
+    width: 80%;
+  }
+  .nav_bg {
+    height: 100px;
+    object-fit: contain;
+  }
+  .menu {
+    display: block;
+  }
+  .numbers {
+    flex-direction: column;
+    align-items: center;
+  }
+  .number_item {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+  .hidden {
+    display: none !important;
+  }
+  .tools_end {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 200%;
+  }
+  .tools_right {
+    width: 90%;
+  }
+  .carousel {
+    height: 295px !important;
+  }
+
+  .carousel-item {
+    width: 50% !important;
+    margin-left: 250px;
+    margin-top: 30px;
+  }
+  .carousel-control-prev {
+    left: 170px !important;
+  }
+
+  .carousel-indicators {
+    bottom: -60px;
+    left: 150px;
+  }
+}
+
